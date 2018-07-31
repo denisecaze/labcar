@@ -1,0 +1,181 @@
+body {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Seção 1 */
+.lab-bg-section-1 {
+  width: 100%;
+  height: 700px;
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: bottom;
+}	
+
+.lab-section-1-box {
+  position: absolute;
+  top: 200px;
+  right: 15px;
+}
+
+.lab-text-lines {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.lab-line-1, .lab-line-2 {
+  width: 130px;
+  border: 0.5px solid white;
+}
+
+/* Seção 3 */
+.lab-section-3 {
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.lab-section-3-box {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Seção 4 */
+.lab-section-4 {
+  height: 90vh;
+}
+
+.lab-travel-icon {
+  font-size: 22px;
+  opacity: 0.8;
+  margin-right: 20px;
+}
+
+.lab-input {
+  width: 300px;
+}
+
+.lab-placeholder::-webkit-input-placeholder {
+  color: white;
+  font-size: 13px;
+}
+
+.lab-placeholder:-moz-placeholder {
+  color: white; 
+  font-size: 13px; 
+}
+
+.lab-placeholder::-moz-placeholder {
+  color: white; 
+  font-size: 13px; 
+}
+
+.lab-placeholder:-ms-input-placeholder {  
+  color: white;  
+  font-size: 13px;
+}
+
+.lab-map-box {
+  height: 80%;
+  width: 440px;
+  border: 1px solid white;
+}
+
+#map {
+  height: 100%;
+}
+
+/* Footer */
+.lab-logo-white-2 {
+  height: 30px;
+  width: 130px;
+}
+
+.lab-footer-line-1, .lab-footer-line-2 {
+  border: 1px solid white;
+  width: 83%;
+}
+
+.footer-list-element {
+  margin-bottom: 15px;
+}
+
+.footer-link, .social-link {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  margin: 0px 5px;
+}
+
+.footer-link:hover, .social-link:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
+
+.download-apple, .download-gplay {
+  width: 140px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.visible-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 540px){
+  .visible-mobile {
+    display: block;
+  }
+
+  .visible-desktop {
+    display: none;
+  }
+
+  .lab-section-2-box {
+    margin-left: 30px;
+  }
+
+  .lab-section-4 {
+    height: 120vh;
+  }
+
+  .lab-map-box {
+    height: 300px;
+    width: 400px;
+  }
+
+  .lab-map {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .visible-mobile {
+    display: block;
+  }
+
+  .visible-desktop {
+    display: none;
+  }
+
+  .lab-section-4 {
+    height: 120vh;
+  }
+
+  .lab-map-box {
+    height: 300px;
+    width: 400px;
+  }
+
+  .lab-map {
+    width: 400px;
+    height: 300px;
+  }
+}
